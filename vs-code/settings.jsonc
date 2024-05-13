@@ -1,0 +1,170 @@
+{
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // <<<<< Editor <<<<<
+  "editor.detectIndentation": true,
+  "editor.tabSize": 4,
+  "editor.indentSize": "tabSize",
+
+  "editor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
+
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  // "editor.fontFamily": "Anonymous Pro",
+  "editor.fontVariations": false,
+  "editor.fontLigatures": true,
+
+
+  "editor.linkedEditing": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+
+  "editor.inlayHints.enabled": "off",
+  "editor.inlayHints.padding": true,
+
+  "editor.minimap.renderCharacters": false,
+  "editor.semanticHighlighting.enabled": true,
+
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+
+  // "editor.unicodeHighlight.nonBasicASCII": false,
+  // "editor.unicodeHighlight.ambiguousCharacters": false,
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json|jsonc|css|less|scss|html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript|typescript|javascriptreact|typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "nickfode.latex-formatter"
+  },
+  "[cs]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "[c|cpp]": {
+    "editor.tabSize": 8,
+    "editor.defaultFormatter": "keyhr.42-c-format"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+  },
+  "[julia]": {
+    "editor.defaultFormatter": "0h7z.vscode-julia-format"
+  },
+  // >>>>>> Editor >>>>>>
+
+  // <<<<< Auto Save <<<<<
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  // >>>>> Auto Save >>>>>
+
+  "catppuccin-icons.hidesExplorerArrows": true,
+  // <<<<< Workbench <<<<<
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+
+  "window.customTitleBarVisibility": "never",
+  
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.editor.showTabs": "none",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  // >>>>> Workbench >>>>>
+
+  // <<<<< Terminal <<<<<
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.commandsToSkipShell": [
+    "github.copilot.terminal.suggestCommand",
+    "language-julia.interrupt"
+  ],
+  // >>>>> Terminal >>>>>
+
+  // <<<<< Python <<<<<
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/envs/um/bin/python",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  // >>>>> Python >>>>>
+
+  // <<<<< Git <<<<<
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "always",
+  "git.suggestSmartCommit": true,
+  "git.branchWhitespaceChar": "-",
+  // >>>>> Git >>>>>
+
+  // <<<<< GitHub Copilot <<<<<
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "scminput": false,
+    "yaml": false
+  },
+  // >>>>> GitHub Copilot >>>>>
+  
+  // <<<<< JavaScript <<<<<
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  // <<<<< TypeScript <<<<<
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  // <<<<< CSS, SCSS, Less <<<<<
+  "css.format.braceStyle": "expand",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "less.format.spaceAroundSelectorSeparator": true,
+  // <<<<< TailwindCSS <<<<<
+  "tailwind-fold.autoFold": true,
+
+  // <<<<< Svelte <<<<<
+  "svelte.enable-ts-plugin": true,
+  // <<<<< Julia <<<<<
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false,
+
+  // <<<<< Markdown Preview Enhanced <<<<<
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.codeBlockTheme": "pojoaque.css",
+    "markdown-preview-enhanced.revealjsTheme": "beige.css",
+  // >>>>> Markdown Preview Enhanced >>>>>
+
+  "jupyter.askForKernelRestart": false,
+  "notebook.output.wordWrap": true,
+  "window.commandCenter": true,
+  "explorer.confirmDragAndDrop": false,
+
+  "cmake.configureOnOpen": true,
+  "githubPullRequests.pullBranch": "never",
+
+  "search.useIgnoreFiles": false,
+  "codeium.enableConfig": {
+    "*": true
+  }
+}
