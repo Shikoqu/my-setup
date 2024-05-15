@@ -1,3 +1,4 @@
+<!-- cSpell:disable -->
 # My VS Code Extensions
 
 ## Appearance
@@ -30,10 +31,8 @@ jeff-hykin.better-shellscript-syntax
 leonhard-s.python-sphinx-highlight
 magicstack.magicpython
 mechatroner.rainbow-csv
-ncthbrt.antlr4
-prisma.prisma
 
-### Keymaps
+### Key-map
 gregoire.dance
 ms-vscode.atom-keybindings
 
@@ -58,6 +57,7 @@ visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
 wholroyd.jinja
 tomoki1207.pdf
+fosshaas.fontsize-shortcuts
 
 
 ## AI
@@ -154,9 +154,6 @@ vunguyentuan.vscode-postcss
 infarkt.css-to-jss
 paulmolluzzo.convert-css-in-js
 yoavbls.pretty-ts-errors
-
-### Antlr4
-mike-lischke.vscode-antlr4
 
 ### Swift
 sswg.swift-lang

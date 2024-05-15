@@ -1,3 +1,4 @@
+// cSpell:disable
 {
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -14,7 +15,6 @@
   // "editor.fontFamily": "Anonymous Pro",
   "editor.fontVariations": false,
   "editor.fontLigatures": true,
-
 
   "editor.linkedEditing": true,
   "editor.formatOnPaste": true,
@@ -38,15 +38,17 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "svipas.prettier-plus"
   },
-  "[json|jsonc|css|less|scss|html]": {
+  "[json][jsonc][css][less][scss][html]": {
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.rulers": [60, 80],
+    "editor.defaultFormatter": "svipas.prettier-plus"
   },
-  "[javascript|typescript|javascriptreact|typescriptreact]": {
+  "[javascript][typescript][javascriptreact][typescriptreact]": {
     "editor.tabSize": 2,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.rulers": [60, 80],
+    "editor.defaultFormatter": "svipas.prettier-plus"
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
@@ -57,7 +59,7 @@
   "[cs]": {
     "editor.defaultFormatter": "csharpier.csharpier-vscode"
   },
-  "[c|cpp]": {
+  "[c][cpp]": {
     "editor.tabSize": 8,
     "editor.defaultFormatter": "keyhr.42-c-format"
   },
@@ -79,8 +81,6 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
 
-  "window.customTitleBarVisibility": "never",
-  
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.editor.showTabs": "none",
   "workbench.activityBar.location": "top",
@@ -127,7 +127,7 @@
     "yaml": false
   },
   // >>>>> GitHub Copilot >>>>>
-  
+  //
   // <<<<< JavaScript <<<<<
   "javascript.referencesCodeLens.enabled": true,
   "javascript.referencesCodeLens.showOnAllFunctions": true,
@@ -150,9 +150,9 @@
   "julia.enableTelemetry": false,
 
   // <<<<< Markdown Preview Enhanced <<<<<
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-    "markdown-preview-enhanced.codeBlockTheme": "pojoaque.css",
-    "markdown-preview-enhanced.revealjsTheme": "beige.css",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "pojoaque.css",
+  "markdown-preview-enhanced.revealjsTheme": "beige.css",
   // >>>>> Markdown Preview Enhanced >>>>>
 
   "jupyter.askForKernelRestart": false,
